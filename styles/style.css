@@ -1,0 +1,55 @@
+
+html {
+    background-color: black;
+    background-size: cover;
+    background-image: url("../yoko1200.jpg");
+}
+
+h1 {
+    color: rgba(189, 57, 17, 0.89);
+    font-family: 'Staatliches', cursive;
+    font-size: 55px; 
+    padding-left: 50px;
+}
+
+
+
+marquee {
+	margin-top: 5px;
+	width: 100%;
+}
+
+.runtext-container {
+width: 100%;
+overflow-x: hidden;
+overflow-y: visible;
+margin: 0 60px 0 0px;
+padding:0 3px 0 3px;
+}
+
+.main-runtext {margin: 0 auto;
+overflow: visible;
+position: relative;
+height: 60px;
+}
+
+.runtext-container .holder {
+position: relative;
+overflow: visible;
+display:inline;
+float:left;
+
+}
+
+.runtext-container .holder .text-container {
+	display:inline;
+}
+
+.runtext-container .holder a{
+	text-decoration: none;
+    font-family: 'Source Code Pro', monospace;
+	font-weight: bold;
+	color:#ffbb00;
+	line-height: -0.5em;
+	font-size:30px;
+}
